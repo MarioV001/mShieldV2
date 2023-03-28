@@ -1,0 +1,50 @@
+﻿<Window x:Name="BlockAPPPopUp" x:Class="mShield2.BlockAppPopUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mShield2"
+        mc:Ignorable="d"
+        Title="BlockAppPopUp" Height="100" Width="335" Loaded="Window_Loaded" WindowStyle="None" Foreground="{x:Null}" AllowsTransparency="True" Opacity="0.9" ResizeMode="NoResize">
+    <Window.Background>
+        <SolidColorBrush Color="Transparent" Opacity="0"/>
+    </Window.Background>
+    <Grid>
+        <Border BorderThickness="1,1,1,0" Margin="5,5,0,0" BorderBrush="#FF09255B" ScrollViewer.VerticalScrollBarVisibility="Disabled" CornerRadius="15,15,0,0">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF082B52" Offset="0.95"/>
+                    <GradientStop Color="#FF16477F" Offset="0"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="55" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="/warning(1).png" Width="60" />
+                <Image Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Source="/Images/close-button.png" Width="25" Margin="0,2,0,0" MouseDown="Image_MouseDown" Cursor="Hand" />
+                <Border Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,15,10,15" Padding="5.5,0,0,0" CornerRadius="3">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF33384A"/>
+                            <GradientStop Color="#FF20232F" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="18"/>
+                            <RowDefinition Height="18"/>
+                            <RowDefinition Height="18"/>
+                        </Grid.RowDefinitions>
+                        <Label x:Name="NameProcesslabel" Grid.Row="0" Content="Name: Process" Foreground="#FFE6E6E6" Padding="0,0,0,0" UseLayoutRounding="False" />
+                        <Label x:Name="KilledProcLabel" Grid.Row="1" Content="Killed: False" Foreground="#FFE6E6E6" Padding="0,0,0,0" UseLayoutRounding="False" />
+                        <Label x:Name="xTimesLabel" Grid.Row="2" Content="X-Times: 0" Foreground="#FFE6E6E6" Padding="0,0,0,0" UseLayoutRounding="False" />
+                    </Grid>
+                </Border>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,79 @@
+﻿<Window x:Class="mShield2.View.TCPTrace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mShield2.View"
+        mc:Ignorable="d"
+        Title="TCPTrace" Height="450" Width="920">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.8,1" StartPoint="0.8,0" SpreadMethod="Repeat">
+            <GradientStop Color="#FF2F3744"/>
+            <GradientStop Color="#FF242A36" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    
+    <Window.Resources>
+        <!-- GridViewHeaderStyle resource -->
+        <Style x:Key="MV_GridViewHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+            <Setter Property="Padding" Value="8,2,0,2" />
+        </Style>
+    </Window.Resources>
+
+    <!-- Designer View -->
+    <Grid>
+        <Border x:Name="ControlButtons" Height="30" BorderBrush="#FF566679" BorderThickness="1,1,0,1" VerticalAlignment="Bottom" CornerRadius="5,0,0,5">
+            <Grid x:Name="GridID" >
+                <Button x:Name="AcceptBTN" HorizontalAlignment="Left" Width="138" Margin="5,0,0,0" Height="23" BorderBrush="#FF020D1D" Click="AcceptBTN_Click" Cursor="Hand" >
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" Opacity="0.93">
+                            <GradientStop Color="#FF0A3B61" Offset="0.55"/>
+                            <GradientStop Color="#FF1F4873" Offset="0.03"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    <Label Background="{x:Null}" Foreground="WhiteSmoke" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="14.5" FontWeight="Bold" Content="Refresh" Padding="0,0,0,-2" />
+                </Button>
+                <Button x:Name="DeclineBTN" HorizontalAlignment="Right" Width="138" Margin="5,0,0,0" Height="23" BorderBrush="#FF020D1D" Cursor="Hand" >
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Pad" Opacity="0.93">
+                            <GradientStop Color="#FF0A3B61" Offset="0.55"/>
+                            <GradientStop Color="#FF1F4873" Offset="0.03"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    <Label Background="{x:Null}" Foreground="WhiteSmoke" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="14.5" FontWeight="Bold" Content="Decline" Padding="0,0,0,-2" />
+                </Button>
+            </Grid>
+        </Border>
+        <ListView x:Name="TcpConnectionListBox" ItemsSource="{Binding ConList}" Background="#FF2D3E4E" Foreground="White" BorderBrush="#FF334465" Margin="0,0,0,73">
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Trace Entry" />
+                    <Separator />
+                    <MenuItem x:Name="BtnCopyIP" Header="Copy Remote IP" Click="BtnCopyIP_Click" />
+                    <MenuItem Header="Copy Remote Port" />
+                    <MenuItem Header="Copy Remote IP + Port" />
+                </ContextMenu>
+            </ListView.ContextMenu>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Proc ID"  Width="60" DisplayMemberBinding="{Binding ProcessId}" HeaderContainerStyle="{StaticResource MV_GridViewHeaderStyle}"/>
+                    <GridViewColumn Header="Proces Name" Width="80" DisplayMemberBinding="{Binding ProcessName}" HeaderContainerStyle="{StaticResource MV_GridViewHeaderStyle}"/>
+                    <GridViewColumn Header="Description" Width="270" DisplayMemberBinding="{Binding ProcessDesc}" HeaderContainerStyle="{StaticResource MV_GridViewHeaderStyle}"/>
+                    <GridViewColumn Header="Local Adress" Width="150" DisplayMemberBinding="{Binding LocalAddress}" HeaderContainerStyle="{StaticResource MV_GridViewHeaderStyle}"/>
+                    <GridViewColumn Header="Remote Adress" Width="150" DisplayMemberBinding="{Binding RemoteAddress}" HeaderContainerStyle="{StaticResource MV_GridViewHeaderStyle}"/>
+                    <GridViewColumn Header="Remote Port" Width="80" DisplayMemberBinding="{Binding RemotePort}" HeaderContainerStyle="{StaticResource MV_GridViewHeaderStyle}"/>
+                    <GridViewColumn Header="" Width="120">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button x:Name="TraceBTN" Content="Trace" Click="TraceBTN_Click" Width="80"></Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        
+    </Grid>
+</Window>

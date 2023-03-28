@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dwTPQeYVx1D2vmBoNpJL0kgGnJTUCMtQy4+h8qKFwIgLs43oPSZsLrHKQQ50iyS9XAgOKf0nkBvUQOBET2ILUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artha\\source\\repos\\mShield2\\mShield2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artha\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\artha\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

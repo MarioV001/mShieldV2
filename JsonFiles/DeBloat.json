@@ -1,0 +1,201 @@
+{
+  "DeBloatData": [
+    {
+      "TYPE": "Appx",
+      "NAME": "xbox"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.549981C3F5F10"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "sticky"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "maps"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "alarms"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "people"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "comm"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "mess"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "onenote"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "photo"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "camera"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "bing"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "soundrec"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.Getstarted"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.WindowsFeedbackHub"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.3DBuilder"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "GetHelp"
+    },
+    {
+      "TYPE": "WinPack",
+      "NAME": "QuickAssist"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.Office.Sway"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.MicrosoftEdge.Stable"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.MicrosoftSolitaireCollection"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.Wallet"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.MixedReality.Portal"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.MicrosoftOfficeHub"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.ScreenSketch"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Facebook.InstagramBeta"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.ZuneMusic"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.ZuneVideo"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.Todos"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.WindowsCamera"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.WindowsFeedbackHub"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.XboxIdentityProvider"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.WindowsMaps"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.BingWeather"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "Microsoft.BingNews"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "CBSPreview"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "ParentalControls"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "get"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "skype"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "oneconnect"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "EclipseManager"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "skype"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "skype"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "skype"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "SecHealthUI"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "WindowsSoundRecorder"
+    },
+    {
+      "TYPE": "WinPack",
+      "NAME": "Hello-Face"
+    },
+
+    {
+      "TYPE": "Appx",
+      "NAME": "zune"
+    },
+    {
+      "TYPE": "Appx",
+      "NAME": "WindowsAlarms"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "DeRegData": [
+    {
+      "LOC": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+      "EXE": "/v DisableWindowsConsumerFeatures /d 00000001 /t REG_DWORD /f"
+    },
+    {
+      "LOC": "DPS",
+      "EXE": ""
+    },
+    {
+      "LOC": "DPS",
+      "EXE": ""
+    },
+    {
+      "LOC": "DPS",
+      "EXE": ""
+    },
+    {
+      "LOC": "DPS",
+      "EXE": ""
+    },
+    {
+      "LOC": "DPS",
+      "EXE": ""
+    },
+    {
+      "LOC": "DPS",
+      "EXE": ""
+    },
+    {
+      "LOC": "DPS",
+      "EXE": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿<Window x:Name="FileEncryption1" x:Class="mShield2.FileEncryption"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mShield2"
+        mc:Ignorable="d"
+        Title="FileEncryption" Height="500" Width="880" Closing="FileEncryption1_Closing">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.8,1" StartPoint="0.8,0" SpreadMethod="Repeat">
+            <GradientStop Color="#FF2F3744"/>
+            <GradientStop Color="#FF242A36" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Label Content="Ex-Encoder" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2" FontSize="17" FontWeight="DemiBold"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="111,12,0,0" VerticalAlignment="Top" Width="25" Source="/Images/setting(1).png"/>
+        <Image x:Name="SaveLocationBTN" HorizontalAlignment="Left" Height="32" Margin="155,11,0,0" VerticalAlignment="Top" Width="32" Source="../Images/folder-browse.png" Cursor="Hand" MouseDown="SaveLocationBTN_MouseDown"/>
+        <TextBox x:Name="LookUpTextBox" Width="260" HorizontalAlignment="Left" Background="#FF2A385A" BorderBrush="#FF4B5573" SelectionBrush="#FFD8A459" Text="" Foreground="White" IsUndoEnabled="true" MaxLines="1" UndoLimit="0" AllowDrop="False" FontSize="15" MaxLength="100" VerticalAlignment="Top" Margin="10,72,0,0" Height="30"/>
+        <Label Content="Encryption Password" HorizontalAlignment="Left" Margin="16,49,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2" FontSize="14" IsTabStop="True"/>
+        <CheckBox x:Name="SavePS" Content="Save Password" Margin="288,79,0,0" Foreground="White" Background="#FF254477" BorderBrush="#FF254065" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <ListView x:Name="USBListView" Margin="0,105,0,30" FontSize="15">
+            <ListView.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF15212D" Offset="1"/>
+                    <GradientStop Color="#FF2D3441" Offset="0"/>
+                </LinearGradientBrush>
+            </ListView.Background>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" Width="50" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Path" Width="350" DisplayMemberBinding="{Binding Path}"/>
+                    <GridViewColumn Header="File Type" DisplayMemberBinding="{Binding FileType}"/>
+                    <GridViewColumn Header="State" DisplayMemberBinding="{Binding FileState}"/>
+                    <GridViewColumn Header="Bytes" DisplayMemberBinding="{Binding FileBytes}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="Additm" HorizontalAlignment="Left" Height="30" Width="180" Cursor="Hand" Content="ADD"  BorderBrush="#FF7A8FA9" Background="#FF3A537D" Foreground="#FFEDEDED" FontWeight="DemiBold" FontSize="14" Click="Additm_Click" VerticalAlignment="Bottom"/>
+        <Button x:Name="Encrpt" HorizontalAlignment="Left" Height="30" Width="185" Margin="273,0,0,0" Cursor="Hand" Content="Encrypt"  BorderBrush="#FF7A8FA9" Background="#FF3A537D" Foreground="#FFEDEDED" FontWeight="DemiBold" FontSize="14" Click="Encrpt_Click" VerticalAlignment="Bottom"/>
+        <Button x:Name="Decrypt" HorizontalAlignment="Left" Height="30" Width="185" Margin="458,0,0,0" Cursor="Hand" Content="Decrypt"  BorderBrush="#FF7A8FA9" Background="#FF3A537D" Foreground="#FFEDEDED" FontWeight="DemiBold" FontSize="14" Click="Decrypt_Click" VerticalAlignment="Bottom"/>
+        <Button x:Name="Removeitm" HorizontalAlignment="Right" Height="30" Width="180" Cursor="Hand" Content="Remove"  BorderBrush="#FF7A8FA9" Background="#FF3A537D" Foreground="#FFEDEDED" FontWeight="DemiBold" FontSize="14" Click="Removeitm_Click" VerticalAlignment="Bottom"/>
+        <Label Content="File Save Location: " HorizontalAlignment="Left" Margin="185,11,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2" IsTabStop="True"/>
+        <Label x:Name="FileSaveLocation" Content="&quot;&quot;" HorizontalAlignment="Left" Margin="288,12,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2" IsTabStop="True"/>
+
+    </Grid>
+</Window>

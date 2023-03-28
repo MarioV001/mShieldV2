@@ -1,0 +1,118 @@
+﻿<Window x:Class="mShield2.FolderBrowseDiag"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mShield2"
+        mc:Ignorable="d"
+        Title="Folder Browse Diag" Height="532" Width="920" Initialized="Window_Initialized" Loaded="Window_Loaded" MouseDown="Window_MouseDown">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF1B2A37" Offset="0"/>
+            <GradientStop Color="#FF191919" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="783*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="#FF0D2E40" BorderThickness="5,0,0,0" HorizontalAlignment="Stretch" Height="33" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                    <GradientStop Color="#FF20242F" Offset="0.25"/>
+                    <GradientStop Color="#FF1E2738" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <TextBox x:Name="LookUpTextBox" Background="#FF314150" SelectionBrush="#FFD8A459" Text="" Foreground="White" IsUndoEnabled="true" MaxLines="1" UndoLimit="0" AllowDrop="False" FontSize="18" MaxLength="100" VerticalAlignment="Center" Margin="75,5,46,0" Height="28" BorderBrush="#FF1F2933" KeyDown="LookUpTextBox_KeyDown"/>
+                <Image x:Name="BackButton" HorizontalAlignment="Left" Height="28"  VerticalAlignment="Top" Width="28" Source="/Images/back.png" Grid.ColumnSpan="2" Margin="0,5,0,0" MouseDown="BackButton_MouseDown" Cursor="Hand"/>
+                <Image x:Name="ForwardButton" HorizontalAlignment="Left" Height="28"  VerticalAlignment="Top" Width="28" Source="/Images/FORWARD.png" Grid.Column="1" Margin="32,5,0,0"/>
+                <Image x:Name="Navigate" HorizontalAlignment="Right" Height="28"  VerticalAlignment="Top" Width="28" Source="/Images/GO.png" Grid.Column="1" Margin="0,5,5,0" MouseDown="Navigate_MouseDown" Cursor="Hand"/>
+            </Grid>
+        </Border>
+
+        <ListView x:Name="FileBrowseList" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="195,38,4,66" Background="#66191919" BorderBrush="#66191919" Foreground="White" Grid.Column="1" MouseDoubleClick="FileBrowseList_MouseDoubleClick" ItemsSource="{Binding TrackCollection}">
+
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <Image Source="{Binding ImageData}" HorizontalAlignment="Stretch" VerticalAlignment="Top" Stretch="UniformToFill" Height="65" Width="65" />
+                        <TextBlock Text="{Binding FolderName}" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <Border BorderBrush="#FF566679" BorderThickness="0,0,4,0" HorizontalAlignment="Left" Height="auto" Width="210" ScrollViewer.HorizontalScrollBarVisibility="Visible" Margin="0,38,0,66" Grid.ColumnSpan="2">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#7F3B99CA" Offset="0"/>
+                    <GradientStop Color="#99253B50" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <Grid x:Name="ItemsGridX" HorizontalAlignment="Stretch" Margin="0,10,0,10" Height="auto" ScrollViewer.HorizontalScrollBarVisibility="Visible" />
+            </ScrollViewer>
+        </Border>
+
+        <Border x:Name="FooterNav" BorderBrush="#FF2D394E" BorderThickness="0,0.5,0,0"  Opacity="0.8" Height="61" VerticalAlignment="Bottom" Width="auto" Grid.ColumnSpan="2">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                    <GradientStop Color="#FF20242F" Offset="0.25"/>
+                    <GradientStop Color="#FF1E2738" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+
+                <Border x:Name="CancelButton" BorderBrush="#FF2D394E" BorderThickness="2.5" CornerRadius="0,10,10,0"  HorizontalAlignment="Right" Width="157"  Height="35" VerticalAlignment="Bottom" MouseEnter="Border_MouseEnter" MouseLeave="StartTraceBTN_MouseLeave" Cursor="Hand" MouseDown="CancelButton_MouseDown" Margin="0,0,3,3">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                            <GradientStop Color="#FF20242F" Offset="0.25"/>
+                            <GradientStop Color="#FF1E2738" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <StackPanel  Margin="4,2,0,0" >
+                        <Grid Height="auto">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="35" />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  Source="/Images/cross.png" Width="25" Height="25" VerticalAlignment="Top" />
+                            <Label Grid.Column="1" Content="Cancel" HorizontalAlignment="Center" Foreground="White" FontSize="14" VerticalAlignment="Top" />
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <Border x:Name="SelectButton" BorderBrush="#FF2D394E" BorderThickness="2.5" CornerRadius="10,0,0,10"  HorizontalAlignment="Right" Width="157"  Height="35" VerticalAlignment="Bottom" MouseEnter="Border_MouseEnter" MouseLeave="StartTraceBTN_MouseLeave" Cursor="Hand" MouseDown="SelectButton_MouseDown" Margin="0,0,160,3">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                            <GradientStop Color="#FF20242F" Offset="0.25"/>
+                            <GradientStop Color="#FF1E2738" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <StackPanel  Margin="4,2,0,0" >
+                        <Grid Height="auto">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="35" />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"  Source="/Images/choose.png" Width="25" Height="25" VerticalAlignment="Top" />
+                            <Label Grid.Column="1" Content="Select Folder" HorizontalAlignment="Center" Foreground="White" FontSize="14" VerticalAlignment="Top" />
+                        </Grid>
+                    </StackPanel>
+
+                </Border>
+                <Label  Content="Folder:" HorizontalAlignment="Left"  VerticalAlignment="Top" Foreground="White" Margin="66,0,0,0"/>
+                <Label x:Name="FolderNameLabel" Content="/" HorizontalAlignment="Left"  VerticalAlignment="Top" Foreground="White" Margin="105,0,0,0"/>
+            </Grid>
+        </Border>
+
+    </Grid>
+</Window>

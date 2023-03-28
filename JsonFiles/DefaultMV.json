@@ -1,0 +1,1708 @@
+﻿{
+  "StoredProcesess": [
+    {
+      "Name": "Registry",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "smss",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "csrss",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "wininit",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "services",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "lsass",
+      "OGName": "lsass.exe",
+      "Description": "Local Security Authority Process",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\lsass.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "winlogon",
+      "OGName": "WINLOGON.EXE.MUI",
+      "Description": "Windows Logon Application",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\winlogon.exe",
+      "CommandLineParams": "winlogon.exe"
+    },
+    {
+      "Name": "svchost",
+      "OGName": "svchost.exe.mui",
+      "Description": "Host Process for Windows Services",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\svchost.exe",
+      "CommandLineParams": " -k DcomLaunch -p"
+    },
+    {
+      "Name": "fontdrvhost",
+      "OGName": "fontdrvhost.exe",
+      "Description": "Usermode Font Driver Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\fontdrvhost.exe",
+      "CommandLineParams": "fontdrvhost.exe"
+    },
+    {
+      "Name": "dwm",
+      "OGName": "dwm.exe.mui",
+      "Description": "Desktop Window Manager",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\dwm.exe",
+      "CommandLineParams": "dwm.exe"
+    },
+    {
+      "Name": "amdfendrsr",
+      "OGName": "amdfendrsr.exe",
+      "Description": "AMD Crash Defender Service",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\amdfendrsr.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "atiesrxx",
+      "OGName": "ATIESRXX.EXE",
+      "Description": "AMD External Events Service Module",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\DriverStore\\FileRepository\\u0376255.inf_amd64_b67dbc7531b4ea7c\\B376137\\atiesrxx.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "atieclxx",
+      "OGName": "ATIECLXX.EXE",
+      "Description": "AMD External Events Client Module",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\DriverStore\\FileRepository\\u0376255.inf_amd64_b67dbc7531b4ea7c\\B376137\\atieclxx.exe",
+      "CommandLineParams": "atieclxx"
+    },
+    {
+      "Name": "spoolsv",
+      "OGName": "spoolsv.exe.mui",
+      "Description": "Spooler SubSystem App",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\spoolsv.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "IpOverUsbSvc",
+      "OGName": "IpOverUsbSvc.exe",
+      "Description": "Windows IP Over USB PC Service",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Phone Tools\\CoreCon\\11.0\\bin\\IpOverUsbSvc.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "MsMpEng",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "TeamViewer_Service",
+      "OGName": "TeamViewer_Service.exe",
+      "Description": "TeamViewer",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\TeamViewer\\TeamViewer_Service.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "jhi_service",
+      "OGName": "jhi_service.exe",
+      "Description": "Intel(R) Dynamic Application Loader Host Interface",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_b5484efd38adbe8d\\jhi_service.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "dasHost",
+      "OGName": "dasHost.exe",
+      "Description": "Device Association Framework Provider Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\dashost.exe",
+      "CommandLineParams": "dashost.exe {5e6acbc0-582c-4e66-a142d097c9340b9a}"
+    },
+    {
+      "Name": "NisSrv",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "MsMpEngCP",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "SgrmBroker",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "SearchIndexer",
+      "OGName": "SearchIndexer.exe.mui",
+      "Description": "Microsoft Windows Search Indexer",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\SearchIndexer.exe",
+      "CommandLineParams": " /Embedding"
+    },
+    {
+      "Name": "wmpnetwk",
+      "OGName": "WMPNetwk.exe.mui",
+      "Description": "Windows Media Player Network Sharing Service",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Windows Media Player\\wmpnetwk.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "sihost",
+      "OGName": "sihost.exe",
+      "Description": "Shell Infrastructure Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\sihost.exe",
+      "CommandLineParams": "sihost.exe"
+    },
+    {
+      "Name": "taskhostw",
+      "OGName": "taskhostw.exe.mui",
+      "Description": "Host Process for Windows Tasks",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\taskhostw.exe",
+      "CommandLineParams": "taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}"
+    },
+    {
+      "Name": "ctfmon",
+      "OGName": "CTFMON.EXE.MUI",
+      "Description": "CTF Loader",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\ctfmon.exe",
+      "CommandLineParams": "ctfmon.exe"
+    },
+    {
+      "Name": "explorer",
+      "OGName": "EXPLORER.EXE.MUI",
+      "Description": "Windows Explorer",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\Explorer.EXE",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "SearchHost",
+      "OGName": "SearchHost.exe",
+      "Description": "",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+      "CommandLineParams": " -ServerName:CortanaUI.AppXstmwaab17q5s3y22tp6apqz7a45vwv65.mca"
+    },
+    {
+      "Name": "StartMenuExperienceHost",
+      "OGName": null,
+      "Description": null,
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+      "CommandLineParams": " -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca"
+    },
+    {
+      "Name": "RuntimeBroker",
+      "OGName": "RuntimeBroker.exe",
+      "Description": "Runtime Broker",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\RuntimeBroker.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "dllhost",
+      "OGName": "dllhost.exe",
+      "Description": "COM Surrogate",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\DllHost.exe",
+      "CommandLineParams": " /Processid:{973D20D7-562D-44B9-B70B-5A0F49CCDF3F}"
+    },
+    {
+      "Name": "SecurityHealthSystray",
+      "OGName": "SecurityHealthSystray.exe",
+      "Description": "Windows Security notification icon",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "SecurityHealthService",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "RadeonSoftware",
+      "OGName": "Radeonsoftware.exe",
+      "Description": "Radeon Software: Host Application",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\AMD\\CNext\\CNext\\Radeonsoftware.exe",
+      "CommandLineParams": " atlogon"
+    },
+    {
+      "Name": "cncmd",
+      "OGName": "cncmd.exe",
+      "Description": "Radeon Software: Command Line Interface",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\AMD\\CNext\\CNext\\cncmd.exe",
+      "CommandLineParams": " watch 8068"
+    },
+    {
+      "Name": "AMDRSServ",
+      "OGName": "AMDRSServ.exe",
+      "Description": "Radeon Settings: Host Service",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSServ.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "amdow",
+      "OGName": "amdow.exe",
+      "Description": "Radeon Settings: Desktop Overlay",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\AMD\\CNext\\CNext\\amdow.exe",
+      "CommandLineParams": " 5192"
+    },
+    {
+      "Name": "AMDRSSrcExt",
+      "OGName": "AMDRSSrcExt.exe",
+      "Description": "Radeon Settings: Source Extension",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSSrcExt.exe",
+      "CommandLineParams": " fb28e830-7c29-4591-b2df-4e16275fa0d9 SOFTWARE\\AMD\\DVR\\Overlays"
+    },
+    {
+      "Name": "QtWebEngineProcess",
+      "OGName": "QtWebEngineProcess.exe",
+      "Description": "C\u002B\u002B Application Development Framework",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\AMD\\CNext\\CNext\\QtWebEngineProcess.exe",
+      "CommandLineParams": " --type=utility --enable-features=AllowContentInitiatedDataUrlNavigations,TracingServiceInProcess --disable-features=BackgroundFetch,ConsolidatedMovementXY,DnsOverHttpsUpgrade,FormControlsRefresh,MojoVideoCapture,PictureInPicture,SmsReceiver,UseSkiaRenderer,WebPayments,WebUSB --lang=en-GB --service-sandbox-type=network --use-gl=angle --application-name=Radeonsoftware --webengine-schemes=qrc:sLV --mojo-platform-channel-handle=7492 /prefetch:8"
+    },
+    {
+      "Name": "firefox",
+      "OGName": "firefox.exe",
+      "Description": "Firefox",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "audiodg",
+      "OGName": "audioadg.exe.mui",
+      "Description": "Windows Audio Device Graph Isolation ",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\AUDIODG.EXE",
+      "CommandLineParams": " 0x00000000000005F4"
+    },
+    {
+      "Name": "Spotify",
+      "OGName": "Spotify.exe",
+      "Description": "Spotify",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.177.645.0_x86__zpdnekdrzrea0\\Spotify.exe",
+      "CommandLineParams": "Spotify.exe"
+    },
+    {
+      "Name": "ApplicationFrameHost",
+      "OGName": "ApplicationFrameHost.exe",
+      "Description": "Application Frame Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\ApplicationFrameHost.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "notepad\u002B\u002B",
+      "OGName": "notepad\u002B\u002B.exe",
+      "Description": "Notepad\u002B\u002B : a free (GPL) source code editor",
+      "AllowedToRUn": "True",
+      "StartPath": "D:\\Program Files\\Notepad\u002B\u002B\\notepad\u002B\u002B.exe",
+      "CommandLineParams": "  C:\\Users\\artha\\source\\repos\\mShield2\\bin\\Debug\\net6.0-windows\\DefaultMV.json"
+    },
+    {
+      "Name": "WmiPrvSE",
+      "OGName": "Wmiprvse.exe",
+      "Description": "WMI Provider Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\wbem\\wmiprvse.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "PerfWatson2",
+      "OGName": "Cannot process request because the process (9492) has exited.",
+      "Description": "Cannot process request because the process (9492) has exited.",
+      "AllowedToRUn": "True",
+      "StartPath": "Cannot process request because the process (9492) has exited.",
+      "CommandLineParams": "Cannot process request because the process (9492) has exited."
+    },
+    {
+      "Name": "SearchProtocolHost",
+      "OGName": "SearchProtocolHost.exe",
+      "Description": "Microsoft Windows Search Protocol Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+      "CommandLineParams": " Global\\UsGthrFltPipeMssGthrPipe12_ Global\\UsGthrCtrlFltPipeMssGthrPipe12 1 -2147483646 Software\\Microsoft\\Windows Search Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot) C:\\ProgramData\\Microsoft\\Search\\Data\\Temp\\usgthrsvc DownLevelDaemon "
+    },
+    {
+      "Name": "SearchFilterHost",
+      "OGName": "SearchFilterHost.exe",
+      "Description": "Microsoft Windows Search Filter Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\SearchFilterHost.exe",
+      "CommandLineParams": " 852 2896 2868 836 {85EE815A-7738-4808-A14A-3AD87E32A3BF}"
+    },
+    {
+      "Name": "smartscreen",
+      "OGName": "smartscreen.exe.mui",
+      "Description": "Windows Defender SmartScreen",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\smartscreen.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "VBCSCompiler",
+      "OGName": "VBCSCompiler.exe",
+      "Description": "VBCSCompiler",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\VBCSCompiler.exe",
+      "CommandLineParams": " -pipename:GM41RxjBRpRC9T8NhlbpT24IVFQTA288HblpmcLGnwI"
+    },
+    {
+      "Name": "conhost",
+      "OGName": "CONHOST.EXE.MUI",
+      "Description": "Console Window Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\conhost.exe",
+      "CommandLineParams": "\\??\\ 0x4"
+    },
+    {
+      "Name": "StandardCollector.Service",
+      "OGName": "StandardCollector.Service.exe",
+      "Description": "Microsoft (R) Visual Studio Standard Collector",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\DiagnosticsHub.Collection.Service\\StandardCollector.Service.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "ShellExperienceHost",
+      "OGName": "ShellExperienceHost.exe",
+      "Description": "Windows Shell Experience Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+      "CommandLineParams": " -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca"
+    },
+    {
+      "Name": "devenv",
+      "OGName": "devenv.exe",
+      "Description": "Microsoft Visual Studio 2022",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "Microsoft.ServiceHub.Controller",
+      "OGName": "Microsoft.ServiceHub.Controller.exe",
+      "Description": "Microsoft.ServiceHub.Controller",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\controller\\Microsoft.ServiceHub.Controller.exe",
+      "CommandLineParams": " 6db8c41608baf33bec665eece49e9a07af985b3d33a4eb1e5bced6f524b3c9d4//\\\\devenv.exe.config  /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "ServiceHub.VSDetouredHost",
+      "OGName": "ServiceHub.VSDetouredHost.exe",
+      "Description": "ServiceHub.VSDetouredHost.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.AnyCPU\\ServiceHub.VSDetouredHost.exe",
+      "CommandLineParams": " desktopClr$VSDetouredHost net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "ServiceHub.RoslynCodeAnalysisService",
+      "OGName": "ServiceHub.RoslynCodeAnalysisService.exe",
+      "Description": "ServiceHub.RoslynCodeAnalysisService.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.AnyCPU\\ServiceHub.RoslynCodeAnalysisService.exe",
+      "CommandLineParams": " desktopClr$RoslynCodeAnalysisService net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "ServiceHub.IdentityHost",
+      "OGName": "ServiceHub.IdentityHost.exe",
+      "Description": "ServiceHub.IdentityHost.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.x86\\ServiceHub.IdentityHost.exe",
+      "CommandLineParams": " desktopClr.x86$IdentityHost net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "ServiceHub.Host.CLR",
+      "OGName": "ServiceHub.Host.CLR.exe",
+      "Description": "ServiceHub.Host.CLR",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.AnyCPU\\ServiceHub.Host.CLR.exe",
+      "CommandLineParams": " desktopClr$CodeLensService$$13180 net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "ServiceHub.SettingsHost",
+      "OGName": "ServiceHub.SettingsHost.exe",
+      "Description": "ServiceHub.SettingsHost.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.x86\\ServiceHub.SettingsHost.exe",
+      "CommandLineParams": " desktopClr.x86$SettingsHost net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "MSBuild",
+      "OGName": "MSBuild.exe",
+      "Description": "MSBuild.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.exe",
+      "CommandLineParams": " /nologo /nodemode:1 /nodeReuse:true /low:false"
+    },
+    {
+      "Name": "ServiceHub.TestWindowStoreHost",
+      "OGName": "ServiceHub.TestWindowStoreHost.exe",
+      "Description": "ServiceHub.TestWindowStoreHost.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.AnyCPU\\ServiceHub.TestWindowStoreHost.exe",
+      "CommandLineParams": " desktopClr$TestWindowStoreHost net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "ServiceHub.DataWarehouseHost",
+      "OGName": "ServiceHub.DataWarehouseHost.exe",
+      "Description": "ServiceHub.DataWarehouseHost.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.x64\\ServiceHub.DataWarehouseHost.exe",
+      "CommandLineParams": " desktopClr.x64$DataWarehouseHost net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "WinUtils",
+      "OGName": "pythonw.exe",
+      "Description": "Python",
+      "AllowedToRUn": "False",
+      "StartPath": "C:\\systemfile\\pywinver\\WinUtils.exe",
+      "CommandLineParams": " C:\\systemfile\\dandc"
+    },
+    {
+      "Name": "cmd",
+      "OGName": "Cmd.Exe.MUI",
+      "Description": "Windows Command Processor",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\cmd.exe",
+      "CommandLineParams": "cmd.exe /c more c.z | cmd"
+    },
+    {
+      "Name": "powershell",
+      "OGName": "PowerShell.EXE.MUI",
+      "Description": "Windows PowerShell",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "CommandLineParams": "PowerShell.exe   while( (Get-Process Taskmgr, procexp, procexp64, SystemExplorer, ProcessHacker, AnVir, TMX, WinUtil -ErrorAction SilentlyContinue).Count -eq 0 ){Start-Sleep -Milliseconds 100 } "
+    },
+    {
+      "Name": "WebViewHost",
+      "OGName": "WebViewHost.exe",
+      "Description": " ",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\WebViewHost\\WebViewHost.exe",
+      "CommandLineParams": " 8f09d688-d8c2-4b60-9662-95c2082ebe1d -4 3cc256c8-9ad2-43bd-be1b-47204bd032d8"
+    },
+    {
+      "Name": "ServiceHub.Host.CLR.x64",
+      "OGName": "ServiceHub.Host.CLR.x64.exe",
+      "Description": "ServiceHub.Host.CLR.x64",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.x64\\ServiceHub.Host.CLR.x64.exe",
+      "CommandLineParams": " desktopClr.x64$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "ServiceHub.Host.CLR.x86",
+      "OGName": "ServiceHub.Host.CLR.x86.exe",
+      "Description": "ServiceHub.Host.CLR.x86",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.x86\\ServiceHub.Host.CLR.x86.exe",
+      "CommandLineParams": " desktopClr.x86$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE$$91d4f3ce-a565-4d45-935e-c9810e421a02 net.pipe://10512277A4C59256B55F7F5F678E31193E8DB /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:a791c456-a71a-49c6-b654-3047b2b45fe1,ProcessStartTime:637820160442826921}"
+    },
+    {
+      "Name": "mShield2",
+      "OGName": "mShield2.dll",
+      "Description": "mShield2",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Users\\artha\\source\\repos\\mShield2\\bin\\Debug\\net6.0-windows\\mShield2.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "Far",
+      "OGName": "Far.exe",
+      "Description": "File and archive manager",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\FAR32\\Far.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "uhssvc",
+      "OGName": "uhssvc",
+      "Description": "Microsoft Update Health Service",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Update Health Tools\\uhssvc.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "ServiceHub.ThreadedWaitDialog",
+      "OGName": "ServiceHub.ThreadedWaitDialog.exe",
+      "Description": "ServiceHub.ThreadedWaitDialog.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ServiceHub\\Hosts\\ServiceHub.Host.CLR.x86\\ServiceHub.ThreadedWaitDialog.exe",
+      "CommandLineParams": " desktopClr.x86$ThreadedWaitDialog net.pipe://18809F73E02DC31853245C6B8B94787A036A /TelemetrySession:{IsOptedIn:true,HostName:Dev14,AppInsightsInstrumentationKey:f144292e-e3b2-4011-ac90-20e5c03fbce5,AsimovInstrumentationKey:AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70,AppId:1001,UserId:5a348db2-3306-4d09-b5e4-0d2d24c578ef,Id:f2b11467-8798-4e5b-aea0-016dde001cd4,ProcessStartTime:637820357917893952}"
+    },
+    {
+      "Name": "sppsvc",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "MoUsoCoreWorker",
+      "OGName": "MoUSOCoreWorker.exe",
+      "Description": "MoUSO Core Worker Process",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\uus\\AMD64\\MoUsoCoreWorker.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "WpfSurface",
+      "OGName": "WpfSurface.dll",
+      "Description": "WpfSurface",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Users\\artha\\AppData\\Local\\Microsoft\\VisualStudio\\17.0_cb0d5187\\Designer\\Cache\\1-762217191x64DA\\WpfSurface.exe",
+      "CommandLineParams": " 6112 C:\\Users\\artha\\AppData\\Local\\Microsoft\\VisualStudio\\17.0_cb0d5187\\Designer\\Cache\\1-762217191x64DA@\\\\ 3194 3148 314C 33C0 310C 34D8 31B0 3444  -4"
+    },
+    {
+      "Name": "msedge",
+      "OGName": "msedge.exe",
+      "Description": "Microsoft Edge",
+      "AllowedToRUn": "False",
+      "StartPath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+      "CommandLineParams": " --tyqe=render --fieId-trial--handle=1712,16854529411193321620,9342185763190534498,131072 --lang=en-US --extension--process --origin--trial-disabled--features=SecurePaymentConfirmation --device-scale--factor=1 --num--raster-threads=2 --profile-directory=Default --enable--main-frame-before--activation www.google.com --renderer--client-id=6 --user-data-dir=C:\\systemfile --no-v8--untrusted-code-mitigations --load-extension=C:\\systemfile --mojo--platform-channel-handle=-3784 /prefetch:1"
+    },
+    {
+      "Name": "consent",
+      "OGName": "consent.exe.mui",
+      "Description": "Consent UI for administrative applications",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\consent.exe",
+      "CommandLineParams": "consent.exe 5784 430 000001B6FC442040"
+    },
+    {
+      "Name": "git",
+      "OGName": "Cannot process request because the process (13664) has exited.",
+      "Description": "Cannot process request because the process (13664) has exited.",
+      "AllowedToRUn": "True",
+      "StartPath": "Cannot process request because the process (13664) has exited.",
+      "CommandLineParams": "Cannot process request because the process (13664) has exited."
+    },
+    {
+      "Name": "SecHealthUI",
+      "OGName": "SecHealthUI.exe",
+      "Description": "Windows Defender application",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\Microsoft.SecHealthUI_1000.22000.1.0_neutral__8wekyb3d8bbwe\\SecHealthUI.exe",
+      "CommandLineParams": " -ServerName:SecHealthUI.AppX8tam42xc7v2czs3s1nt0nkxvfjtepzp9.mca"
+    },
+    {
+      "Name": "SecurityHealthHost",
+      "OGName": "SecurityHealthHost.exe",
+      "Description": "Windows Security Health Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\SecurityHealthHost.exe",
+      "CommandLineParams": "\\\\?\\ {E041C90B-68BA-42C9-991E-477B73A75C90} -Embedding"
+    },
+    {
+      "Name": "PickerHost",
+      "OGName": "PickerHost.exe",
+      "Description": "File Picker UI Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\PickerHost.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "WinRAR",
+      "OGName": "WinRAR.exe",
+      "Description": "WinRAR archiver",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WinRAR\\WinRAR.exe",
+      "CommandLineParams": " x -iext -ow -ver -imon2 -- C:\\Users\\artha\\Downloads\\Autoruns.zip C:\\Users\\artha\\Downloads\\Autoruns\\"
+    },
+    {
+      "Name": "Widgets",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "False",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "directxdatabaseupdater",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "backgroundTaskHost",
+      "OGName": "backgroundTaskHost.exe",
+      "Description": "Background Task Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\BackgroundTaskHost.exe",
+      "CommandLineParams": " -ServerName:BackgroundTaskHost.WebAccountProvider"
+    },
+    {
+      "Name": "SystemSettingsBroker",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "CompPkgSrv",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "rundll32",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "net.downloadhelper.coapp-win-64",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "MpCmdRun",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "appidcertstorecheck",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "TrustedInstaller",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "ffmpeg",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "SystemSettings",
+      "OGName": "Object reference not set to an instance of an object.",
+      "Description": "Object reference not set to an instance of an object.",
+      "AllowedToRUn": "True",
+      "StartPath": "Object reference not set to an instance of an object.",
+      "CommandLineParams": "Object reference not set to an instance of an object."
+    },
+    {
+      "Name": "BackgroundDownload",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "False",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "SpotifyMigrator",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "WUDFHost",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "BitComet",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "UPNP",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "mspaint",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "BitCometToastsNotifier",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "KMPlayer64",
+      "OGName": "Object reference not set to an instance of an object.",
+      "Description": "Object reference not set to an instance of an object.",
+      "AllowedToRUn": "True",
+      "StartPath": "Object reference not set to an instance of an object.",
+      "CommandLineParams": "Object reference not set to an instance of an object."
+    },
+    {
+      "Name": "KMPLoading",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "VideoSnapshot",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "ChromeSetup",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "GoogleUpdate",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "GoogleUpdateSetup",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "GoogleUpdateComRegisterShell64",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "99.0.4844.51_chrome_installer",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "setup",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "GoogleUpdateOnDemand",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "chrome",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "CompatTelRunner",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "chrmstp",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "MiniSearchHost",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "False",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "ffprobe",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "False",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "LockApp",
+      "OGName": "System.Management currently is only supported for Windows desktop applications.",
+      "Description": "System.Management currently is only supported for Windows desktop applications.",
+      "AllowedToRUn": "True",
+      "StartPath": "System.Management currently is only supported for Windows desktop applications.",
+      "CommandLineParams": "System.Management currently is only supported for Windows desktop applications."
+    },
+    {
+      "Name": "wuauclt",
+      "OGName": "wuauclt.exe",
+      "Description": "Windows Update",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\wuauclt.exe",
+      "CommandLineParams": " /DeploymentHandlerFullPath C:\\Windows\\SYSTEM32\\UpdateDeploy.dll /ClassId 01f42fd6-19a5-4d83-9962-d5e7b764cbaa /RunHandlerComServer"
+    },
+    {
+      "Name": "TiWorker",
+      "OGName": "TiWorker.exe",
+      "Description": "Windows Modules Installer Worker",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22000.469_none_04a25ac34c904574\\TiWorker.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "VSSVC",
+      "OGName": "VSSVC.EXE.MUI",
+      "Description": "Microsoft\u00AE Volume Shadow Copy Service",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\vssvc.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "updater",
+      "OGName": "updater.exe",
+      "Description": "Firefox Software Updater",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Mozilla Firefox\\updater.exe",
+      "CommandLineParams": " C:\\ProgramData\\Mozilla-1de4eec8-1241-4177-a864-e594e8d1fb38\\updates\\308046B0AF4A39CB\\updates\\0 C:\\Program Files\\Mozilla Firefox C:\\Program Files\\Mozilla Firefox 4204 C:\\Program Files\\Mozilla Firefox C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+    },
+    {
+      "Name": "MoNotificationUx",
+      "OGName": "MoNotificationUx.exe.mui",
+      "Description": "MoNotificationUx.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\MoNotificationUx.exe",
+      "CommandLineParams": "%systemroot%\\system32\\MoNotificationUx.exe /NotificationType Reboot_Engaged /FormFactor Passive /Timeout 0"
+    },
+    {
+      "Name": "Windows-KB890830-x64-V5.99",
+      "OGName": "mrtstub.exe",
+      "Description": "Microsoft Windows Malicious Software Removal Tool (KB890830)",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\SoftwareDistribution\\Download\\Install\\Windows-KB890830-x64-V5.99.exe",
+      "CommandLineParams": " /Q /W"
+    },
+    {
+      "Name": "MRT",
+      "OGName": "mrt.exe",
+      "Description": "Microsoft Windows Malicious Software Removal Tool",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\MRT.exe",
+      "CommandLineParams": " /Q /W"
+    },
+    {
+      "Name": "sc",
+      "OGName": "Cannot process request because the process (11352) has exited.",
+      "Description": "Cannot process request because the process (11352) has exited.",
+      "AllowedToRUn": "True",
+      "StartPath": "Cannot process request because the process (11352) has exited.",
+      "CommandLineParams": "Cannot process request because the process (11352) has exited."
+    },
+    {
+      "Name": "DataExchangeHost",
+      "OGName": "DataExchangeHost.exe.mui",
+      "Description": "Data Exchange Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\DataExchangeHost.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "WMIADAP",
+      "OGName": "wmicookr.dll",
+      "Description": "WMI Reverse Performance Adapter Maintenance Utility",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\wbem\\WMIADAP.EXE",
+      "CommandLineParams": "wmiadap.exe /F /T /R"
+    },
+    {
+      "Name": "ngen",
+      "OGName": "ngen.exe",
+      "Description": "Microsoft Common Language Runtime native compiler",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\ngen.exe",
+      "CommandLineParams": " createPDB c:\\windows\\assembly\\nativeimages_v4.0.30319_64\\presentatioaec034ca#\\b66d53d5c884bd6d319582e110072ebc\\presentationframework.aero2.ni.dll C:\\Users\\artha\\AppData\\Local\\Temp\\VSTelem\\NgenPdb"
+    },
+    {
+      "Name": "Updater",
+      "OGName": "update.exe",
+      "Description": "BitComet Update Utility",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\BitComet\\tools\\updater.exe",
+      "CommandLineParams": " C:\\Users\\artha\\AppData\\Local\\Temp\\BitA166.tmp"
+    },
+    {
+      "Name": "DeviceCensus",
+      "OGName": "DeviceCensus.exe",
+      "Description": "Device Census",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\devicecensus.exe",
+      "CommandLineParams": " UserCxt"
+    },
+    {
+      "Name": "WMIC",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "OpenWith",
+      "OGName": "OpenWith.exe.mui",
+      "Description": "Pick an app",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\OpenWith.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "OutlookSideBar",
+      "OGName": "OutlookSideBar.exe",
+      "Description": " ",
+      "AllowedToRUn": "False",
+      "StartPath": "C:\\Users\\artha\\Documents\\DotNetBar WinForms Samples\\OutlookSideBar.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "CHXSmartScreen",
+      "OGName": "CHXSmartScreen.exe",
+      "Description": "CHXSmartScreen.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy\\CHXSmartScreen.exe",
+      "CommandLineParams": " -ServerName:App.AppXk7vvv12h4qrkhkbvf6j86ja45mzj5km9.mca"
+    },
+    {
+      "Name": "OInstall",
+      "OGName": "Cannot process request because the process (15188) has exited.",
+      "Description": "Cannot process request because the process (15188) has exited.",
+      "AllowedToRUn": "True",
+      "StartPath": "Cannot process request because the process (15188) has exited.",
+      "CommandLineParams": "Cannot process request because the process (15188) has exited."
+    },
+    {
+      "Name": "files.dat",
+      "OGName": "7z.sfx.exe",
+      "Description": "7z Console SFX",
+      "AllowedToRUn": "True",
+      "StartPath": "D:\\Downloads\\Microsoft Office 2019 Professional Plus v2002 Build 12527.20242 (x86 \u0026 x64) [Multilingual]\\MSFT_Office_2016_2019_16.0.12527.20242_x64\\files\\files.dat",
+      "CommandLineParams": "files.dat  -y -pkmsauto"
+    },
+    {
+      "Name": "cscript",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "reg",
+      "OGName": "Cannot process request because the process (4720) has exited.",
+      "Description": "Cannot process request because the process (4720) has exited.",
+      "AllowedToRUn": "False",
+      "StartPath": "Cannot process request because the process (4720) has exited.",
+      "CommandLineParams": "Cannot process request because the process (4720) has exited."
+    },
+    {
+      "Name": "WinStore.App",
+      "OGName": "WinStore.App.exe",
+      "Description": "Store",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22112.1401.2.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+      "CommandLineParams": " -ServerName:App.AppXc75wvwned5vhz4xyxxecvgdjhdkgsdza.mca"
+    },
+    {
+      "Name": "WindowsPackageManagerServer",
+      "OGName": "WindowsPackageManagerServer.exe",
+      "Description": "WindowsPackageManagerServer.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.16.13405.0_x64__8wekyb3d8bbwe\\WindowsPackageManagerServer.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "StoreDesktopExtension",
+      "OGName": "StoreDesktopExtension.exe",
+      "Description": "StoreDesktopExtension",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22112.1401.2.0_x64__8wekyb3d8bbwe\\StoreDesktopExtension\\StoreDesktopExtension.exe",
+      "CommandLineParams": " /InvokerPRAID: App "
+    },
+    {
+      "Name": "HxOutlook",
+      "OGName": "hxoutlook.exe",
+      "Description": "Microsoft Outlook",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.14326.20544.0_x64__8wekyb3d8bbwe\\HxOutlook.exe",
+      "CommandLineParams": " -ServerName:microsoft.windowslive.mail.AppXfbjsbkxvprcgqg6q4c9jfr0pn3kv9x5s.mca"
+    },
+    {
+      "Name": "HxTsr",
+      "OGName": "HxTsr.exe",
+      "Description": "Microsoft Outlook Communications",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.14326.20544.0_x64__8wekyb3d8bbwe\\HxTsr.exe",
+      "CommandLineParams": " -ServerName:Hx.IPC.Server"
+    },
+    {
+      "Name": "HxAccounts",
+      "OGName": "hxaccounts.exe",
+      "Description": "Microsoft Outlook Accounts",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.14326.20544.0_x64__8wekyb3d8bbwe\\HxAccounts.exe",
+      "CommandLineParams": " -ServerName:microsoft.windowslive.manageaccounts.AppXdbf3yp5apt3t7q877db3gnz5zqpf71zj.mca"
+    },
+    {
+      "Name": "Setup64",
+      "OGName": "Bootstrapper.exe",
+      "Description": "Microsoft Office",
+      "AllowedToRUn": "True",
+      "StartPath": "D:\\Downloads\\Microsoft Office Professional Plus 2019 v16.0.11929.20376 (x86 \u0026 x64) [BG]\\Office\\Setup64.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "OfficeClickToRun",
+      "OGName": "OfficeClickToRun.exe",
+      "Description": "Microsoft Office Click-to-Run (SxS)",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe",
+      "CommandLineParams": " forcecentcheck= deliverymechanism=492350f6-3a01-4f97-b9c0-c7c6ddf67d60 productreleaseid=ProPlus2019Retail platform=x64 culture=bg-bg defaultplatform=False lcid=1026 b= prereleasebuild=4419 storeid= totalclientcabsize=27880446 productstoadd=ProPlus2019Retail.16_bg-bg_x-none scenario=unknown mediatype.16=Local ProPlus2019Retail.excludedapps.16=groove,onenote updatesenabled.16=True cdnbaseurl.16=http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60 version.16=16.0.11929.20376 baseurl.16=D:\\Downloads\\Microsoft Office Professional Plus 2019 v16.0.11929.20376 (x86 \u0026 x64) [BG] sourcetype.16=Local flt.useexptransportinplacepl=unknown flt.useoutlookshareaddon=unknown flt.useofficehelperaddon=unknown flt.useteamsonupdatebusiness=unknown flt.useteamsonupdateproplus=unknown"
+    },
+    {
+      "Name": "OfficeC2RClient",
+      "OGName": "OfficeC2RClient.exe",
+      "Description": "Microsoft Office Click-to-Run Client",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeC2RClient.exe",
+      "CommandLineParams": " /progressandlaunch AppTargets=root\\office16\\excel.exe|root\\office16\\lync.exe|root\\office16\\msaccess.exe|root\\office16\\mspub.exe|root\\office16\\outlook.exe|root\\office16\\powerpnt.exe|root\\office16\\winword.exe ManualUpgrade=False ScenarioToTrack=Scenario:{FB9843BB-0D8A-4347-A227-C759C3FC9103}@INSTALL"
+    },
+    {
+      "Name": "Integrator",
+      "OGName": "Integrator.exe",
+      "Description": "Microsoft Office Click-to-Run Integrator",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Office\\root\\integration\\integrator.exe",
+      "CommandLineParams": "integrator.exe /U /Extension /Msi /License PRIDName= PackageGUID=9AC08E99-230B-47e8-9721-4577B7F124EA PackageRoot=C:\\Program Files\\Microsoft Office\\root"
+    },
+    {
+      "Name": "wevtutil",
+      "OGName": "wevtutil.exe.mui",
+      "Description": "Windows Event Log Utility",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\wevtutil.exe",
+      "CommandLineParams": "wevtutil.exe im C:\\ProgramData\\Microsoft\\ClickToRun\\{9AC08E99-230B-47e8-9721-4577B7F124EA}\\wordEtw.man /rf:C:\\Program Files\\Microsoft Office\\root\\Office16\\wwlib.dll /mf:C:\\Program Files\\Microsoft Office\\root\\Office16\\wwlib.dll"
+    },
+    {
+      "Name": "msiexec",
+      "OGName": "msiexec.exe.mui",
+      "Description": "Windows\u00AE installer",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\msiexec.exe",
+      "CommandLineParams": " /V"
+    },
+    {
+      "Name": "OSE",
+      "OGName": "ose.exe",
+      "Description": "Office Source Engine",
+      "AllowedToRUn": "True",
+      "StartPath": "c:\\Program Files\\Common Files\\Microsoft Shared\\Source Engine\\OSE.EXE",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "LaunchTM",
+      "OGName": "Object reference not set to an instance of an object.",
+      "Description": "Object reference not set to an instance of an object.",
+      "AllowedToRUn": "True",
+      "StartPath": "Object reference not set to an instance of an object.",
+      "CommandLineParams": "Object reference not set to an instance of an object."
+    },
+    {
+      "Name": "Taskmgr",
+      "OGName": "Taskmgr.exe.mui",
+      "Description": "Task Manager",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\Taskmgr.exe",
+      "CommandLineParams": " /2"
+    },
+    {
+      "Name": "AddInUtil",
+      "OGName": "AddInUtil.exe",
+      "Description": "AddInUtil.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "c:\\Windows\\Microsoft.NET\\Framework64\\v3.5\\addinutil.exe",
+      "CommandLineParams": " -AddInRoot:c:\\Program Files (x86)\\Common Files\\Microsoft Shared\\VSTA\\AppInfoDocument\\. -Rebuild"
+    },
+    {
+      "Name": "MpCopyAccelerator",
+      "OGName": "Access is denied.",
+      "Description": "Access is denied.",
+      "AllowedToRUn": "True",
+      "StartPath": "Access is denied.",
+      "CommandLineParams": "Access is denied."
+    },
+    {
+      "Name": "PerfBoost",
+      "OGName": "PerfBoost.exe",
+      "Description": "Microsoft ClickToRun Virtualization Optimization",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Office\\root\\Office16\\perfboost.exe",
+      "CommandLineParams": "perfboost.exe EnsureVE"
+    },
+    {
+      "Name": "AppVShNotify",
+      "OGName": "AppVShNotify.exe",
+      "Description": "AppVShNotify",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\AppVShNotify.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "SDXHelper",
+      "OGName": "SDXHELPER.EXE",
+      "Description": "Microsoft Office SDX Helper",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\Office16\\sdxhelper.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "OneDriveSetup",
+      "OGName": "OneDriveSetup.exe",
+      "Description": "Microsoft OneDrive Setup",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Office\\root\\integration\\Addons\\OneDriveSetup.exe",
+      "CommandLineParams": " /silent"
+    },
+    {
+      "Name": "FileSyncConfig",
+      "OGName": "FileSyncConfig.exe",
+      "Description": "Microsoft OneDrive Configuration Application",
+      "AllowedToRUn": "False",
+      "StartPath": "C:\\Users\\artha\\AppData\\Local\\Microsoft\\OneDrive\\18.151.0729.0013\\FileSyncConfig.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "msdt",
+      "OGName": "msdt.exe.mui",
+      "Description": "Diagnostics Troubleshooting Wizard",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\msdt.exe",
+      "CommandLineParams": " /cab D:\\Downloads\\Microsoft Office Professional Plus 2019 v16.0.11929.20376 (x86 \u0026 x64) [BG]\\O15CTRRemove.diagcab"
+    },
+    {
+      "Name": "sdiagnhost",
+      "OGName": "sdiagnhost.exe.mui",
+      "Description": "Scripted Diagnostics Native Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\sdiagnhost.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "schtasks",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "taskkill",
+      "OGName": "taskkill.exe.mui",
+      "Description": "Terminates Processes",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\SysWOW64\\taskkill.exe",
+      "CommandLineParams": "taskkill.exe /t /f /IM aria2_oinstall.exe"
+    },
+    {
+      "Name": "pcwrun",
+      "OGName": "Cannot process request because the process (13164) has exited.",
+      "Description": "Cannot process request because the process (13164) has exited.",
+      "AllowedToRUn": "True",
+      "StartPath": "Cannot process request because the process (13164) has exited.",
+      "CommandLineParams": "Cannot process request because the process (13164) has exited."
+    },
+    {
+      "Name": "csc",
+      "OGName": "csc.exe",
+      "Description": "Visual C# Command Line Compiler",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe",
+      "CommandLineParams": " /noconfig /fullpaths @C:\\Users\\artha\\AppData\\Local\\Temp\\bukopu02.cmdline"
+    },
+    {
+      "Name": "OLicenseHeartbeat",
+      "OGName": "OLicenseHeartbeat.exe",
+      "Description": "Office Subscription Licensing Heartbeat",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonx64\\Microsoft Shared\\OFFICE16\\OLicenseHeartbeat.exe",
+      "CommandLineParams": "OLicenseHeartbeat.exe tokenactivate"
+    },
+    {
+      "Name": "WINWORD",
+      "OGName": "WinWord.exe",
+      "Description": "Microsoft Word",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "findstr",
+      "OGName": "FINDSTR.EXE.MUI",
+      "Description": "Find String (QGREP) Utility",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\findstr.exe",
+      "CommandLineParams": "findstr  /i ID  "
+    },
+    {
+      "Name": "mode.com",
+      "OGName": "MODE.COM",
+      "Description": "DOS Device MODE Utility",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\mode.com",
+      "CommandLineParams": "mode  con cols=98 lines=30"
+    },
+    {
+      "Name": "cleanosppx64",
+      "OGName": null,
+      "Description": null,
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\Temp\\_MAS\\bin\\cleanosppx64.exe",
+      "CommandLineParams": "  -Licenses"
+    },
+    {
+      "Name": "find",
+      "OGName": "Object reference not set to an instance of an object.",
+      "Description": "Object reference not set to an instance of an object.",
+      "AllowedToRUn": "True",
+      "StartPath": "Object reference not set to an instance of an object.",
+      "CommandLineParams": "Object reference not set to an instance of an object."
+    },
+    {
+      "Name": "AdobeIPCBroker",
+      "OGName": "AdobeIPCBroker.exe",
+      "Description": "Adobe IPC Broker",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files (x86)\\Common Files\\Adobe\\Adobe Desktop Common\\IPCBox\\AdobeIPCBroker.exe",
+      "CommandLineParams": " -launchedbyvulcan-1888 C:\\Program Files\\Adobe\\Adobe Photoshop 2021\\Photoshop.exe"
+    },
+    {
+      "Name": "CCXProcess",
+      "OGName": "CCXProcess.exe",
+      "Description": "CCXProcess",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Adobe\\Adobe Creative Cloud Experience\\CCXProcess.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "node",
+      "OGName": "node.exe",
+      "Description": "Node.js JavaScript Runtime",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Adobe\\Adobe Creative Cloud Experience\\libs\\node.exe",
+      "CommandLineParams": " C:\\Program Files\\Adobe\\Adobe Creative Cloud Experience\\js\\main.js"
+    },
+    {
+      "Name": "OfficeSetup",
+      "OGName": "Bootstrapper.exe",
+      "Description": "Microsoft Office",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Users\\artha\\Downloads\\OfficeSetup.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "PDFREFLOW",
+      "OGName": "PDFREFLOW.EXE",
+      "Description": "Microsoft PDF Reflow",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft Office\\Root\\Office16\\PDFREFLOW.EXE",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "FL64",
+      "OGName": "FL.exe",
+      "Description": "FL Studio",
+      "AllowedToRUn": "True",
+      "StartPath": "D:\\Program Files (x86)\\Image-Line\\FL Studio 20\\FL64.exe",
+      "CommandLineParams": " "
+    },
+    {
+      "Name": "git-bash",
+      "OGName": "",
+      "Description": "",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Git\\git-bash.exe",
+      "CommandLineParams": " --cd=C:\\Users\\artha\\source\\repos\\mShield2."
+    },
+    {
+      "Name": "WerFault",
+      "OGName": "WerFault.exe.mui",
+      "Description": "Windows Problem Reporting",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\WerFault.exe",
+      "CommandLineParams": " -pss -s 372 -p 8648 -ip 8648"
+    },
+    {
+      "Name": "wmplayer",
+      "OGName": "wmplayer.exe.mui",
+      "Description": "Windows Media Player",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files (x86)\\Windows Media Player\\wmplayer.exe",
+      "CommandLineParams": " /Play -Embedding"
+    },
+    {
+      "Name": "SpatialAudioLicenseSrv",
+      "OGName": "SpatialLicenseSrv.exe",
+      "Description": "Spatial License AppService Broker",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\SpatialAudioLicenseSrv.exe",
+      "CommandLineParams": " SpatialAudioLicenseServerInteractiveUser -Embedding"
+    },
+    {
+      "Name": "ilbridge",
+      "OGName": "",
+      "Description": "",
+      "AllowedToRUn": "True",
+      "StartPath": "D:\\Program Files (x86)\\Image-Line\\FL Studio 20\\System\\Tools\\Bridge\\32bit\\ilbridge.exe",
+      "CommandLineParams": "  -wrapper -address {A8160B03-FD1D-458E-A5AA-E2A70FC1D07B}1 -processid 4600"
+    },
+    {
+      "Name": "Microsoft.Photos",
+      "OGName": "Microsoft.Photos.exe",
+      "Description": "Microsoft.Photos.exe",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2021.21120.8011.0_x64__8wekyb3d8bbwe\\Microsoft.Photos.exe",
+      "CommandLineParams": " -ServerName:App.AppXzst44mncqdg84v7sv6p7yznqwssy6f7f.mca"
+    },
+    {
+      "Name": "VSIXAutoUpdate",
+      "OGName": "VSIXAutoUpdate.exe",
+      "Description": " ",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service\\VSIXAutoUpdate.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "Update",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "regsvr32",
+      "OGName": "REGSVR32.EXE",
+      "Description": "Microsoft(C) Register Server",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\SysWOW64\\regsvr32.exe",
+      "CommandLineParams": "regsvr32.exe /s C:\\Program Files\\KMPlayer 64X\\VSFilter.dll"
+    },
+    {
+      "Name": "SppExtComObj",
+      "OGName": "SppExtComObj.exe",
+      "Description": "KMS Connection Broker",
+      "AllowedToRUn": "False",
+      "StartPath": "C:\\Windows\\system32\\SppExtComObj.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "userinit",
+      "OGName": "USERINIT.EXE.MUI",
+      "Description": "Userinit Logon Application",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\userinit.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "mobsync",
+      "OGName": "Cannot process request because the process (7028) has exited.",
+      "Description": "Cannot process request because the process (7028) has exited.",
+      "AllowedToRUn": "False",
+      "StartPath": "Cannot process request because the process (7028) has exited.",
+      "CommandLineParams": "Cannot process request because the process (7028) has exited."
+    },
+    {
+      "Name": "MediaCreationTool21H2",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "SetupHost",
+      "OGName": "SetupHost.exe",
+      "Description": "Modern Setup Host",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\$Windows.~WS\\Sources\\SetupHost.Exe",
+      "CommandLineParams": " /Download /Web  "
+    },
+    {
+      "Name": "vdsldr",
+      "OGName": "vdsldr.exe",
+      "Description": "Virtual Disk Service Loader",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\vdsldr.exe",
+      "CommandLineParams": " -Embedding"
+    },
+    {
+      "Name": "SrTasks",
+      "OGName": "srtasks.exe.mui",
+      "Description": "Microsoft\u00AE Windows System Protection background tasks.",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\srtasks.exe",
+      "CommandLineParams": " ExecuteScheduledSPPCreation"
+    },
+    {
+      "Name": "DiagTrackRunner",
+      "OGName": "diagtrackrunner.exe",
+      "Description": "Microsoft Windows Diagnostics Tracking Runner",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\$Windows.~WS\\Sources\\DiagTrackRunner.exe",
+      "CommandLineParams": " /UploadEtlFilesOnly"
+    },
+    {
+      "Name": "Photoshop",
+      "OGName": "Photoshop.exe",
+      "Description": "Adobe Photoshop 2021",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Adobe\\Adobe Photoshop 2021\\Photoshop.exe",
+      "CommandLineParams": " C:\\Users\\artha\\Downloads\\11.jpg"
+    },
+    {
+      "Name": "CRWindowsClientService",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "sniffer",
+      "OGName": null,
+      "Description": null,
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Adobe\\Adobe Photoshop 2021\\sniffer.exe",
+      "CommandLineParams": " -baseTimeMS=9490448 -comment=Photoshop Version: Adobe Photoshop 22.5.2 20211001.r.491 a629bf2 x64"
+    },
+    {
+      "Name": "Adobe Spaces Helper",
+      "OGName": "Adobe Spaces Helper.exe",
+      "Description": "Adobe Spaces Helper",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Adobe\\Adobe Photoshop 2021\\Required\\Plug-ins\\Spaces\\Adobe Spaces Helper.exe",
+      "CommandLineParams": " --type=gpu-process --field-trial-handle=10044,3429643852668971357,12478579155994187821,131072 --no-sandbox --disable-direct-composition --locales-dir-path=C:\\Program Files\\Adobe\\Adobe Photoshop 2021\\Required\\Plug-ins\\Spaces\\Resources\\locales\\\\ --log-file=C:\\Program Files\\Adobe\\Adobe Photoshop 2021\\debug.log --log-severity=disable --resources-dir-path=C:\\Program Files\\Adobe\\Adobe Photoshop 2021\\Required\\Plug-ins\\Spaces\\Resources\\\\ --lang=en_GB --gpu-preferences=KAAAAAAAAACAAwCAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAFAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAQAAAAUAAAAQAAAAAAAAAAEAAAAGAAAA --disable-in-process-stack-traces --service-request-channel-token=2670513367275981912 --mojo-platform-channel-handle=10112 /prefetch:2"
+    },
+    {
+      "Name": "plugin-container",
+      "OGName": "Object reference not set to an instance of an object.",
+      "Description": "Object reference not set to an instance of an object.",
+      "AllowedToRUn": "True",
+      "StartPath": "Object reference not set to an instance of an object.",
+      "CommandLineParams": "Object reference not set to an instance of an object."
+    },
+    {
+      "Name": "provtool",
+      "OGName": "provtool",
+      "Description": "Provisioning package runtime processing tool",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\system32\\ProvTool.exe",
+      "CommandLineParams": " /turn 5 /source LogonIdleTask"
+    },
+    {
+      "Name": "CRLogTransport",
+      "OGName": "CRLogTransport .exe",
+      "Description": "CRLogTransport Application",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Adobe\\Adobe Photoshop 2021\\CRLogTransport.exe",
+      "CommandLineParams": " C:\\Program Files\\Adobe\\Adobe Photoshop 2021 C:\\Users\\artha\\AppData\\Roaming\\Adobe\\CRLogs\\crashlogs"
+    },
+    {
+      "Name": "SystemSettingsAdminFlows",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "teamredminer",
+      "OGName": "WinPthreadGC",
+      "Description": "POSIX WinThreads for Windows",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Users\\artha\\Desktop\\TemRedMining\\teamredminer.exe",
+      "CommandLineParams": "teamredminer.exe  -a etchash -o stratum\u002Btcp://eu1-etc.ethermine.org:4444 -u 0x317af5a4489b4b56e8664a7b08332baEBA0B5bC6.Rig001 -p x --restart_gpus --uac --eth_alloc_epoch=374 --eth_4g_max_alloc=374  --eth_dag_cache=0"
+    },
+    {
+      "Name": "RSServCmd",
+      "OGName": "RSServCmd.exe",
+      "Description": "Radeon Settings: Command Line Interface",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\AMD\\CNext\\CNext\\RSServCmd.exe",
+      "CommandLineParams": " restart"
+    },
+    {
+      "Name": "YourPhone",
+      "OGName": "YourPhone.exe",
+      "Description": " ",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.21121.250.0_x64__8wekyb3d8bbwe\\YourPhone.exe",
+      "CommandLineParams": " -ServerName:App.AppX9yct9q388jvt4h7y0gn06smzkxcsnt8m.mca"
+    },
+    {
+      "Name": "splwow64",
+      "OGName": "splwow64.exe",
+      "Description": "Print driver host for applications",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\splwow64.exe",
+      "CommandLineParams": " 8192"
+    },
+    {
+      "Name": "sqlwriter",
+      "OGName": "SQLWRITER.EXE",
+      "Description": "SQL Server VSS Writer - 64 Bit",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Program Files\\Microsoft SQL Server\\90\\Shared\\sqlwriter.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "rufus-3.18p",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    },
+    {
+      "Name": "vds",
+      "OGName": "vds.exe.mui",
+      "Description": "Virtual Disk Service",
+      "AllowedToRUn": "True",
+      "StartPath": "C:\\Windows\\System32\\vds.exe",
+      "CommandLineParams": ""
+    },
+    {
+      "Name": "raserver",
+      "OGName": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "Description": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "AllowedToRUn": "True",
+      "StartPath": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed.",
+      "CommandLineParams": "Only part of a ReadProcessMemory or WriteProcessMemory request was completed."
+    }
+  ]
+}

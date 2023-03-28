@@ -1,0 +1,138 @@
+﻿<Window x:Class="mShield2.DataSelectionScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mShield2"
+        mc:Ignorable="d"
+        Title="Data Source Selection" Height="220" Width="540" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="NoResize" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.8,1" StartPoint="0.8,0" SpreadMethod="Repeat">
+            <GradientStop Color="#FF2F3744"/>
+            <GradientStop Color="#FF242A36" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="81" Margin="22,47,0,0" VerticalAlignment="Top" Width="75" Source="../Images/database.png"/>
+        
+        <!-- Pre-Build Button Button -->
+        <Border x:Name="DefaultDB" Cursor="Hand" BorderBrush="#FF2D394E" BorderThickness="3.5" CornerRadius="10" Margin="120,27,0,0" HorizontalAlignment="Left" Width="110" Height="140" VerticalAlignment="Top" Padding="0,4,0,0" MouseEnter="Border_MouseEnter" MouseLeave="StartTraceBTN_MouseLeave" MouseDown="DefaultDB_MouseDown">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                    <GradientStop Color="#FF20242F" Offset="0.25"/>
+                    <GradientStop Color="#FF1E2738" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel  Margin="4,0,0,0"  >
+                <Grid Height="auto">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="38"/>
+
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0"  Source="../Images/data-network.png" Width="65" Height="65" />
+                    <Label Grid.Row="1" Content="Use MV Pre&#xD;&#xA; Build Data" HorizontalAlignment="Center" Foreground="White" Height="38" FontSize="10.5" />
+                </Grid>
+            </StackPanel>
+        </Border>
+        
+
+        <!-- New DB Button -->
+        <Border x:Name="NewDB" Cursor="Hand" BorderBrush="#FF2D394E" BorderThickness="3.5" CornerRadius="10" Margin="250,27,0,0" HorizontalAlignment="Left" Width="110" Height="140" VerticalAlignment="Top" Padding="0,4,0,0" MouseEnter="Border_MouseEnter" MouseLeave="StartTraceBTN_MouseLeave" MouseDown="NewDM_MouseDown">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                    <GradientStop Color="#FF20242F" Offset="0.25"/>
+                    <GradientStop Color="#FF1E2738" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel  Margin="4,0,0,0" Cursor="Hand" >
+                <Grid Height="auto">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="38"/>
+
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0"  Source="../Images/folder.png" Width="65" Height="65" />
+                    <Label Grid.Row="1" Content="Start Fresh&#xD;&#xA;Data Build" HorizontalAlignment="Center" Foreground="White" Height="38" FontSize="10.5" />
+                </Grid>
+            </StackPanel>
+        </Border>
+
+        <!-- Export DB Button -->
+        <Border x:Name="NExportDB" Cursor="Hand" BorderBrush="#FF2D394E" BorderThickness="3" CornerRadius="9" Margin="370,45,0,0" HorizontalAlignment="Left" Width="160" Height="40" VerticalAlignment="Top"  MouseEnter="Border_MouseEnter" MouseLeave="StartTraceBTN_MouseLeave" MouseDown="NExportDB_MouseDown">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                    <GradientStop Color="#FF20242F" Offset="0.25"/>
+                    <GradientStop Color="#FF1E2738" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel   Cursor="Hand" >
+                <Grid Height="auto" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="120"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0"  Source="../Images/Export.png" Width="25" Height="25" HorizontalAlignment="Left" Margin="8,-5,0,0" />
+                    <Label Grid.Column="1" Content="Export Current Data" HorizontalAlignment="Left" Foreground="White" Height="38" FontSize="10.5" Padding="0,10,0,0"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+        <!-- Import DB Button -->
+        <Border x:Name="ImportDB" Cursor="Hand" BorderBrush="#FF2D394E" BorderThickness="3" CornerRadius="9" Margin="370,90,0,0" HorizontalAlignment="Left" Width="160" Height="40" VerticalAlignment="Top"  MouseEnter="Border_MouseEnter" MouseLeave="StartTraceBTN_MouseLeave" MouseDown="NExportDB_MouseDown">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                    <GradientStop Color="#FF20242F" Offset="0.25"/>
+                    <GradientStop Color="#FF1E2738" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel   Cursor="Hand" >
+                <Grid Height="auto" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="120"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0"  Source="../Images/import.png" Width="25" Height="25" HorizontalAlignment="Left" Margin="8,-5,0,0" />
+                    <Label Grid.Column="1" Content="Import Data" HorizontalAlignment="Left" Foreground="White" Height="38" FontSize="10.5" Padding="0,10,0,0"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+
+
+        <Label x:Name="HeaderLabel" Content="Select Data Type" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="505" Foreground="White" FontWeight="DemiBold" FontSize="13" Margin="5,0,0,0" Padding="0,5,0,0"/>
+
+        <!--Proceed Button-->
+        <Border x:Name="ProceedBTN" Grid.Column="0" BorderBrush="#FF2D394E" BorderThickness="2.5,2,0,0" CornerRadius="10,0,0,10"  HorizontalAlignment="Right" Width="145"  Height="35" VerticalAlignment="Bottom" MouseEnter="Border_MouseEnter" MouseLeave="StartTraceBTN_MouseLeave" Cursor="Hand" MouseDown="Border_MouseDown" Margin="375,175,0,0">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                    <GradientStop Color="#FF20242F" Offset="0.25"/>
+                    <GradientStop Color="#FF1E2738" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel  Margin="4,0,0,0" >
+                <Grid Height="auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35" />
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="23*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0"  Source="../Images/choose.png" Width="25" Height="25" VerticalAlignment="Top" Margin="5,0,5,0" />
+                    <Label Grid.Column="1" Content="Proceed" HorizontalAlignment="Center" Foreground="White" FontSize="14" VerticalAlignment="Center" />
+                </Grid>
+            </StackPanel>
+        </Border>
+
+        <Border x:Name="ExitdBTN" Grid.Column="0" BorderBrush="#FF2D394E" BorderThickness="2,0,0,2" CornerRadius="0,0,0,10"  HorizontalAlignment="Right" Width="39"  Height="35" VerticalAlignment="Top" MouseEnter="Border_MouseEnter" MouseLeave="StartTraceBTN_MouseLeave" Cursor="Hand" MouseDown="Border_MouseDown" Margin="481,0,0,0" >
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                    <GradientStop Color="#FF20242F" Offset="0.25"/>
+                    <GradientStop Color="#FF1E2738" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Image Source="/Images/close-button.png" Width="28" Height="28" VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+            
+        </Border>
+
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+{
+  "DeServicesData": [
+    {
+      "NAME": "DPS"
+    },
+    {
+      "NAME": "WdiServiceHost"
+    },
+    {
+      "NAME": "WdiSystemHost"
+    },
+    {
+      "NAME": "Spooler"
+    },
+    {
+      "NAME": "PrintNotify"
+    },
+    {
+      "NAME": "Themes"
+    },
+    {
+      "NAME": "TabletInputService"
+    },
+    {
+      "NAME": "stisvc"
+    },
+    {
+      "NAME": "WSearch"
+    },
+    {
+      "NAME": "WpnService"
+    },
+    {
+      "NAME": "LanmanWorkstation"
+    }
+  ]
+}

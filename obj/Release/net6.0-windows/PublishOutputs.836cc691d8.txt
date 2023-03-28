@@ -1,0 +1,7 @@
+C:\Users\artha\Documents\APP_Publish\mShield2.exe
+C:\Users\artha\Documents\APP_Publish\mShield2.dll
+C:\Users\artha\Documents\APP_Publish\mShield2.deps.json
+C:\Users\artha\Documents\APP_Publish\mShield2.runtimeconfig.json
+C:\Users\artha\Documents\APP_Publish\mShield2.pdb
+C:\Users\artha\Documents\APP_Publish\System.Management.dll
+C:\Users\artha\Documents\APP_Publish\runtimes\win\lib\net6.0\System.Management.dll

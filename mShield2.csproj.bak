@@ -1,0 +1,178 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>Images/M-Shield_solo_.ico</ApplicationIcon>
+    <IsPublishable>True</IsPublishable>    <Copyright>ExDevelopers</Copyright>
+    <NeutralLanguage>en-001</NeutralLanguage>
+    <AssemblyVersion>1.0.1.6</AssemblyVersion>
+    <FileVersion>1.0.1.6</FileVersion>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+<ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="back-arrow.png" />
+    <None Remove="BACK.png" />
+    <None Remove="choose.png" />
+    <None Remove="close-button.png" />
+    <None Remove="cross.png" />
+    <None Remove="data-network.png" />
+    <None Remove="database.png" />
+    <None Remove="encrypted.png" />
+    <None Remove="folder-browse.png" />
+    <None Remove="folder.png" />
+    <None Remove="footprint.png" />
+    <None Remove="FORWARD.png" />
+    <None Remove="GO.png" />
+    <None Remove="harddisk.png" />
+    <None Remove="Images\back.png" />
+    <None Remove="Images\cross.png" />
+    <None Remove="Images\Folder-Explore.png" />
+    <None Remove="Images\hand-tool.png" />
+    <None Remove="Images\right-click.png" />
+    <None Remove="JsonFiles\DeBloat.json" />
+    <None Remove="JsonFiles\DefaultMV.json" />
+    <None Remove="JsonFiles\DeRegistry.json" />
+    <None Remove="JsonFiles\DeServices.json" />
+    <None Remove="JsonFiles\LD.json" />
+    <None Remove="JsonFiles\RegFIX.json" />
+    <None Remove="lock.png" />
+    <None Remove="M-Shield[x150].png" />
+    <None Remove="M-Shield[x400].png" />
+    <None Remove="no-internet.png" />
+    <None Remove="process.png" />
+    <None Remove="RED-Warning.png" />
+    <None Remove="refresh.png" />
+    <None Remove="search-engine.png" />
+    <None Remove="setting%281%29.png" />
+    <None Remove="setting.png" />
+    <None Remove="shield%281%29.png" />
+    <None Remove="shield.png" />
+    <None Remove="warning%281%29.png" />
+    <None Remove="warning.png" />
+    <None Remove="Warning1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\M-Shield_solo_.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\back-arrow.png" />
+    <Resource Include="Images\folder-browse.png" />
+    <Resource Include="Images\GO.png" />
+    <Resource Include="Images\Folder-Explore.png" />
+    <Resource Include="Images\FORWARD.png" />
+    <Resource Include="Images\hand-tool.png" />
+    <Resource Include="Images\harddisk.png" />
+    <Resource Include="Images\back.png" />
+    <Resource Include="Images\choose.png" />
+    <Resource Include="Images\close-button.png" />
+    <Resource Include="Images\cross.png" />
+    <Resource Include="Images\data-network.png" />
+    <Resource Include="Images\database.png" />
+    <Resource Include="Images\encrypted.png" />
+    <Resource Include="Images\folder.png" />
+    <Resource Include="Images\footprint.png" />
+    <Resource Include="Images\lock.png" />
+    <Resource Include="Images\M-Shield[x150].png" />
+    <Resource Include="Images\M-Shield[x400].png" />
+    <Resource Include="Images\no-internet.png" />
+    <Resource Include="Images\process.png" />
+    <Resource Include="Images\refresh.png" />
+    <Resource Include="Images\right-click.png" />
+    <Resource Include="Images\setting%281%29.png" />
+    <Resource Include="Images\setting.png" />
+    <Resource Include="Images\shield%281%29.png" />
+    <Resource Include="Images\shield.png" />
+    <Resource Include="Images\Warning1.png" />
+    <Resource Include="JsonFiles\RegFIX.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="JsonFiles\DeRegistry.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="JsonFiles\DeServices.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="JsonFiles\DeBloat.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="JsonFiles\DefaultMV.json" />
+    <Resource Include="JsonFiles\LD.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\RED-Warning.png" />
+    <Resource Include="Images\search-engine.png" />
+    <Resource Include="Images\warning%281%29.png" />
+    <Resource Include="Images\warning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+</Project>
